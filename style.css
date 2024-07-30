@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+.copy::selection {
+  background-color: transparent;
+}
+
+.copysms {
+  display: none;
+  position: absolute;
+  background: #dddddd;
+  color: #00000090;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1000;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  gap: 30px;
+  transition: 0.3s;
+  padding: 20px;
+}
+
+.colordock {
+  border: 2px solid #00000040;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
+  transition: 0.3s;
+}
+.rgb {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #00000090;
+  border-bottom: 2px solid #00000040;
+  border-top: 2px solid #00000040;
+  transition: 0.3s;
+}
+.bradius {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #00000090;
+  border-bottom: 2px solid #00000040;
+  border-top: 2px solid #00000040;
+  transition: 0.3s;
+}
+.copy {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #00000090;
+  border-bottom: 2px solid #00000040;
+  border-top: 2px solid #00000040;
+  cursor: copy;
+  transition: 0.2s;
+
+  &:active {
+    transform: scale(1.05);
+  }
+}
+
+.btn {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border: none;
+  color: #00000090;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 1px 5px 5px #00000040;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+}
+.nn {
+  background-color: rgb(233, 52, 48);
+  border-radius: 233px 52px 48px 69px;
+  background-color: rgb(233, 52, 48);
+  border-radius: 233px 52px 48px 69px;
+  background-color: rgb(99, 42, 136);
+  border-radius: 99px 42px 136px 117px;
+}
